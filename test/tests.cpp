@@ -6,14 +6,16 @@
 using namespace std;
 
 TEST(test1, waitTest) {
-  string menu[] = { "Tea", "Milk", "Americano", "Espresso", "Latte", "Cappuccino", "Hot chocolate" };
+  string menu[] = { "Tea", "Milk", "Americano", "Espresso",
+                   "Latte", "Cappuccino", "Hot chocolate" };
   int prices[] = { 3, 2, 4, 3, 4, 5, 3 };
   Automata automat(menu, prices);
   EXPECT_EQ(automat.getState(), Automata::OFF);
 }
 
 TEST(test2, waitTest) {
-  string menu[] = { "Tea", "Milk", "Americano", "Espresso", "Latte", "Cappuccino", "Hot chocolate" };
+  string menu[] = { "Tea", "Milk", "Americano", "Espresso",
+                   "Latte", "Cappuccino", "Hot chocolate" };
   int prices[] = { 3, 2, 4, 3, 4, 5, 3 };
   Automata automat(menu, prices);
   automat.on();
@@ -21,7 +23,8 @@ TEST(test2, waitTest) {
 }
 
 TEST(test3, AcceptTest) {
-  string menu[] = { "Tea", "Milk", "Americano", "Espresso", "Latte", "Cappuccino", "Hot chocolate" };
+  string menu[] = { "Tea", "Milk", "Americano", "Espresso",
+                   "Latte", "Cappuccino", "Hot chocolate" };
   int prices[] = { 3, 2, 4, 3, 4, 5, 3 };
   Automata automat(menu, prices);
   automat.on();
@@ -30,7 +33,8 @@ TEST(test3, AcceptTest) {
 }
 
 TEST(test4, AcceptTest) {
-  string menu[] = { "Tea", "Milk", "Americano", "Espresso", "Latte", "Cappuccino", "Hot chocolate" };
+  string menu[] = { "Tea", "Milk", "Americano", "Espresso",
+                   "Latte", "Cappuccino", "Hot chocolate" };
   int prices[] = { 3, 2, 4, 3, 4, 5, 3 };
   Automata automat(menu, prices);
   automat.on();
@@ -40,7 +44,8 @@ TEST(test4, AcceptTest) {
 }
 
 TEST(test5, AcceptTest) {
-  string menu[] = { "Tea", "Milk", "Americano", "Espresso", "Latte", "Cappuccino", "Hot chocolate" };
+  string menu[] = { "Tea", "Milk", "Americano", "Espresso",
+                   "Latte", "Cappuccino", "Hot chocolate" };
   int prices[] = { 3, 2, 4, 3, 4, 5, 3 };
   Automata automat(menu, prices);
   automat.on();
@@ -50,7 +55,8 @@ TEST(test5, AcceptTest) {
 }
 
 TEST(test6, CheckTest) {
-  string menu[] = { "Tea", "Milk", "Americano", "Espresso", "Latte", "Cappuccino", "Hot chocolate" };
+  string menu[] = { "Tea", "Milk", "Americano", "Espresso",
+                   "Latte", "Cappuccino", "Hot chocolate" };
   int prices[] = { 3, 2, 4, 3, 4, 5, 3 };
   Automata automat(menu, prices);
   automat.on();
@@ -60,7 +66,8 @@ TEST(test6, CheckTest) {
 }
 
 TEST(test7, CheckTest) {
-  string menu[] = { "Tea", "Milk", "Americano", "Espresso", "Latte", "Cappuccino", "Hot chocolate" };
+  string menu[] = { "Tea", "Milk", "Americano", "Espresso",
+                   "Latte", "Cappuccino", "Hot chocolate" };
   int prices[] = { 3, 2, 4, 3, 4, 5, 3 };
   Automata automat(menu, prices);
   automat.on();
@@ -72,7 +79,8 @@ TEST(test7, CheckTest) {
 }
 
 TEST(test8, CheckTest) {
-  string menu[] = { "Tea", "Milk", "Americano", "Espresso", "Latte", "Cappuccino", "Hot chocolate" };
+  string menu[] = { "Tea", "Milk", "Americano", "Espresso",
+                   "Latte", "Cappuccino", "Hot chocolate" };
   int prices[] = { 3, 2, 4, 3, 4, 5, 3 };
   Automata automat(menu, prices);
   automat.on();
@@ -83,7 +91,8 @@ TEST(test8, CheckTest) {
 }
 
 TEST(test9, CheckTest) {
-  string menu[] = { "Tea", "Milk", "Americano", "Espresso", "Latte", "Cappuccino", "Hot chocolate" };
+  string menu[] = { "Tea", "Milk", "Americano", "Espresso",
+                   "Latte", "Cappuccino", "Hot chocolate" };
   int prices[] = { 3, 2, 4, 3, 4, 5, 3 };
   Automata automat(menu, prices);
   automat.on();
@@ -94,7 +103,8 @@ TEST(test9, CheckTest) {
 }
 
 TEST(test10, CookTest) {
-  string menu[] = { "Tea", "Milk", "Americano", "Espresso", "Latte", "Cappuccino", "Hot chocolate" };
+  string menu[] = { "Tea", "Milk", "Americano", "Espresso",
+                   "Latte", "Cappuccino", "Hot chocolate" };
   int prices[] = { 3, 2, 4, 3, 4, 5, 3 };
   Automata automat(menu, prices);
   automat.on();
@@ -106,7 +116,8 @@ TEST(test10, CookTest) {
 }
 
 TEST(test11, CookTest) {
-  string menu[] = { "Tea", "Milk", "Americano", "Espresso", "Latte", "Cappuccino", "Hot chocolate" };
+  string menu[] = { "Tea", "Milk", "Americano", "Espresso",
+                   "Latte", "Cappuccino", "Hot chocolate" };
   int prices[] = { 3, 2, 4, 3, 4, 5, 3 };
   Automata automat(menu, prices);
   automat.on();
