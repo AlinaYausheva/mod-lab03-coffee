@@ -1,11 +1,10 @@
+//Copyright 2022 GHA Test Team
 #include <iostream>
 #include <string>
 #include "Automata.h"
-
-using namespace std;
     
 int main() {
-    string menu[] = { "Tea", "Milk", "Americano", "Espresso", "Latte", "Cappuccino", "Hot chocolate" };
+    std::string menu[] = { "Tea", "Milk", "Americano", "Espresso", "Latte", "Cappuccino", "Hot chocolate" };
     int price[] = { 3, 2, 4, 3, 4, 5, 3 };
     Automata automat(menu, price);
     automat.on();
