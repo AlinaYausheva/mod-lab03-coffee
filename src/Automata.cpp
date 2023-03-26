@@ -45,7 +45,8 @@ void Automata::check(int choiceNum) {
     if (getState() == CHECK) {
         if (cash >= price[choiceNum]) {
             cash -= price[choiceNum];
-            std::cout << "Take the change: " + std::to_string(cash) + "$" << std::endl;
+            std::cout << "Take the change: " + std::to_string(cash) 
+                + "$" << std::endl;
             state = COOK;
         } else {
             state = ACCEPT;
