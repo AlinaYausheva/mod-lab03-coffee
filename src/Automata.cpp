@@ -1,5 +1,5 @@
 #include "Automata.h"
-        
+     
 using namespace std;
 
 Automata::Automata(string Menu[], int Price[]) {
@@ -62,7 +62,7 @@ void Automata::cancel() {
     if ((getState() == ACCEPT) || (getState() == CHECK)) {
         state = WAIT;
         if (cash > 0) {
-            cout << "Ñollect the deposited money: " + to_string(cash) + "$" << endl;
+            cout << "Ã‘ollect the deposited money: " + to_string(cash) + "$" << endl;
         }
         cash = 0;
     }
