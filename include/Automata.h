@@ -26,4 +26,3 @@ private:
     int* price;
     States state;
 };
-
