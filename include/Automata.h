@@ -1,14 +1,13 @@
+//Copyright 2022 GHA Test Team
 #pragma once
 #include <iostream>
 #include <string>
 #include <iterator>
 
-using namespace std;
-
 class Automata {
-public:
+ public:
     enum States { OFF, WAIT, ACCEPT, CHECK, COOK };
-    Automata(string menu[], int price[]);
+    Automata(std::string menu[], int price[]);
     void on();
     void off();
     void coin(int monies);
@@ -20,9 +19,9 @@ public:
     void cook(int choiceNum);
     void finish();
 
-private:
+ private:
     int cash;
-    string* menu;
+    std::string* menu;
     int* price;
     States state;
 };
