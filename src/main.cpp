@@ -11,5 +11,5 @@ int main() {
     automat.on();
     automat.getMenu();
     automat.coin(4);
-    automat.choice(6);  
+    automat.choice(6);
 }
